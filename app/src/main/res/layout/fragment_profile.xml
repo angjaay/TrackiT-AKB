@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="CALON SARJANA AAMIIN"/>
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="Anggota"/>
+    
+    <LinearLayout
+        android:layout_width="330dp"
+        android:layout_height="550dp"
+        android:orientation="vertical"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/angga"/>
+                <LinearLayout
+                    android:layout_width="210dp"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="15dp">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="25dp"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:text="Angga Cahya Abadi"/>
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="25dp"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:text="10119123"/>
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="25dp"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:text="IF - 3"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/rizky"/>
+                <LinearLayout
+                    android:layout_width="210dp"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="15dp">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="25dp"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:text="Rizky Septiana A. R."/>
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="25dp"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:text="10119118"/>
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="25dp"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:text="IF - 3"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/reichan"/>
+                <LinearLayout
+                    android:layout_width="210dp"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="15dp">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="25dp"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:text="Reichan Muhammad"/>
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="25dp"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:text="10119120"/>
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="25dp"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:text="IF - 3"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/prima"/>
+                <LinearLayout
+                    android:layout_width="210dp"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="15dp">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="25dp"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:text="Primarazaq N. P. H."/>
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="25dp"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:text="10119124"/>
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="25dp"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:text="IF - 3"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/andika"/>
+                <LinearLayout
+                    android:layout_width="210dp"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="15dp">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="25dp"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:text="Andika Putra"/>
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="25dp"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:text="10119101"/>
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="25dp"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:text="IF - 3"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+    
+    
+
+</LinearLayout>
