@@ -15,4 +15,6 @@
     <string name="trackit_membantumu_untuk_melihat_informasi_jadwal_buka_tujuan_tempat_wisatamu">TrackiT membantumu untuk melihat informasi jadwal buka tujuan tempat wisatamu</string>
     <string name="trackit_memberimu_informasi_terkait_lokasi_tempat_wisatamu">TrackiT memberimu informasi terkait lokasi tempat wisatamu</string>
     <string name="lacak_lokasi_tempat_wisata">Lacak Lokasi Tempat Wisata</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
