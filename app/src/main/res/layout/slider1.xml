@@ -8,25 +8,26 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="382dp"
-        android:layout_height="319dp"
+        android:layout_width="313dp"
+        android:layout_height="273dp"
         android:layout_marginTop="52dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.444"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/slider1"/>
+        app:srcCompat="@drawable/slider1" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:text="Temukan Kafe Favorit"
+        android:layout_width="291dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/temukan_tempat_wisata_terdekat"
+        android:textAlignment="center"
         android:textColor="#221F1E"
         android:textSize="30sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
@@ -34,17 +35,15 @@
         android:id="@+id/textView2"
         android:layout_width="288dp"
         android:layout_height="51dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="24dp"
         android:lineSpacingExtra="5sp"
-        android:text="Eatbro membantu kamu mencari
-tempat makan favorit disekiarmu"
+        android:text="@string/trackit_membantumu_mencari_tempat_wisata_favorit_di_dekatmu"
         android:textAlignment="center"
         android:textColor="#221F1E"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
