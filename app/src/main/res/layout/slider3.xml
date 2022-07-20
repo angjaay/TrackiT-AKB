@@ -8,22 +8,25 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="309dp"
-        android:layout_height="223dp"
-        android:layout_marginTop="100dp"
+        android:layout_width="340dp"
+        android:layout_height="258dp"
+        android:layout_marginTop="84dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/slider3" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="96dp"
-        android:text="Makan Bersama"
+        android:layout_width="285dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/lacak_lokasi_tempat_wisata"
+        android:textAlignment="center"
         android:textColor="#221F1E"
         android:textSize="30sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
@@ -32,15 +35,14 @@
         android:id="@+id/textView2"
         android:layout_width="239dp"
         android:layout_height="82dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="20dp"
         android:lineSpacingExtra="5sp"
-        android:text="Temukan tempat makan yang cocok untuk bersama orang tercinta"
+        android:text="@string/trackit_memberimu_informasi_terkait_lokasi_tempat_wisatamu"
         android:textAlignment="center"
         android:textColor="#221F1E"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

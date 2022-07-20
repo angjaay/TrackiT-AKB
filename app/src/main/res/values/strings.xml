@@ -9,4 +9,10 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="trackit_membantumu_mencari_tempat_wisata_favorit_di_dekatmu">TrackiT membantumu mencari tempat wisata favorit di dekatmu</string>
+    <string name="temukan_tempat_wisata_terdekat">Temukan Tempat Wisata Terdekat</string>
+    <string name="sesuaikan_jadwal_liburanmu">Sesuaikan Jadwal Liburanmu</string>
+    <string name="trackit_membantumu_untuk_melihat_informasi_jadwal_buka_tujuan_tempat_wisatamu">TrackiT membantumu untuk melihat informasi jadwal buka tujuan tempat wisatamu</string>
+    <string name="trackit_memberimu_informasi_terkait_lokasi_tempat_wisatamu">TrackiT memberimu informasi terkait lokasi tempat wisatamu</string>
+    <string name="lacak_lokasi_tempat_wisata">Lacak Lokasi Tempat Wisata</string>
 </resources>

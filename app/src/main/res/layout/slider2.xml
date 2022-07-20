@@ -18,29 +18,31 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="96dp"
-        android:text="Cari Tempat Terdekat"
+        android:layout_width="302dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/sesuaikan_jadwal_liburanmu"
+        android:textAlignment="center"
         android:textColor="#221F1E"
         android:textSize="30sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.532"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="239dp"
-        android:layout_height="82dp"
-        android:layout_marginTop="4dp"
+        android:layout_width="304dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="24dp"
         android:lineSpacingExtra="5sp"
-        android:text="Temukan 5 tempat makan terdekat darimu"
+        android:text="@string/trackit_membantumu_untuk_melihat_informasi_jadwal_buka_tujuan_tempat_wisatamu"
         android:textAlignment="center"
         android:textColor="#221F1E"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
