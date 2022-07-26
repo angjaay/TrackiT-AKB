@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.home:
                         selectedFragment = new HomeFragment();
                         break;
-                    case R.id.mylocation:
+                    case R.id.maps:
                         selectedFragment = new MyLocationFragment();
                         break;
                     case R.id.profile:
