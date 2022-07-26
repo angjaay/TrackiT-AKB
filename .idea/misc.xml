@@ -3,15 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Project/TrackiT-AKB/app/src/main/res/layout/activity_slider.xml" value="0.29483695652173914" />
+        <entry key="..\:/Project/TrackiT-AKB/app/src/main/res/layout/fragment_about.xml" value="0.33" />
+        <entry key="..\:/Project/TrackiT-AKB/app/src/main/res/layout/fragment_profile.xml" value="0.25271739130434784" />
+        <entry key="..\:/Project/TrackiT-AKB/app/src/main/res/layout/slider1.xml" value="0.36666666666666664" />
+        <entry key="..\:/Project/TrackiT-AKB/app/src/main/res/layout/slider2.xml" value="0.36666666666666664" />
+        <entry key="..\:/Project/TrackiT-AKB/app/src/main/res/layout/slider3.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/TrackiT-AKB/app/src/main/res/drawable/ic_about.xml" value="0.1" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/TrackiT-AKB/app/src/main/res/drawable/profile.xml" value="0.1" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/TrackiT-AKB/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/TrackiT-AKB/app/src/main/res/layout/activity_slider.xml" value="0.25833333333333336" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/TrackiT-AKB/app/src/main/res/layout/activity_splash_screen.xml" value="0.25833333333333336" />
-        <entry key="..\:/Users/hp/AndroidStudioProjects/TrackiT-AKB/app/src/main/res/layout/fragment_about.xml" value="0.264" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/TrackiT-AKB/app/src/main/res/layout/fragment_about.xml" value="0.1" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/TrackiT-AKB/app/src/main/res/layout/fragment_home.xml" value="0.2578125" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/TrackiT-AKB/app/src/main/res/layout/fragment_my_location.xml" value="0.1" />
-        <entry key="..\:/Users/hp/AndroidStudioProjects/TrackiT-AKB/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/TrackiT-AKB/app/src/main/res/layout/fragment_profile.xml" value="0.25833333333333336" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/TrackiT-AKB/app/src/main/res/layout/slider1.xml" value="0.264" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/TrackiT-AKB/app/src/main/res/layout/slider2.xml" value="0.15364583333333334" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/TrackiT-AKB/app/src/main/res/layout/slider3.xml" value="0.15364583333333334" />
