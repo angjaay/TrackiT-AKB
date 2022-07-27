@@ -3,20 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/hp/AndroidStudioProjects/TrackiT-AKB/app/src/main/res/drawable/ic_about.xml" value="0.1" />
-        <entry key="..\:/Users/hp/AndroidStudioProjects/TrackiT-AKB/app/src/main/res/drawable/profile.xml" value="0.1" />
-        <entry key="..\:/Users/hp/AndroidStudioProjects/TrackiT-AKB/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/Users/hp/AndroidStudioProjects/TrackiT-AKB/app/src/main/res/layout/activity_slider.xml" value="0.25833333333333336" />
-        <entry key="..\:/Users/hp/AndroidStudioProjects/TrackiT-AKB/app/src/main/res/layout/activity_splash_screen.xml" value="0.25833333333333336" />
-        <entry key="..\:/Users/hp/AndroidStudioProjects/TrackiT-AKB/app/src/main/res/layout/fragment_about.xml" value="0.1" />
-        <entry key="..\:/Users/hp/AndroidStudioProjects/TrackiT-AKB/app/src/main/res/layout/fragment_home.xml" value="0.2578125" />
-        <entry key="..\:/Users/hp/AndroidStudioProjects/TrackiT-AKB/app/src/main/res/layout/fragment_my_location.xml" value="0.1" />
-        <entry key="..\:/Users/hp/AndroidStudioProjects/TrackiT-AKB/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
-        <entry key="..\:/Users/hp/AndroidStudioProjects/TrackiT-AKB/app/src/main/res/layout/slider1.xml" value="0.264" />
-        <entry key="..\:/Users/hp/AndroidStudioProjects/TrackiT-AKB/app/src/main/res/layout/slider2.xml" value="0.15364583333333334" />
-        <entry key="..\:/Users/hp/AndroidStudioProjects/TrackiT-AKB/app/src/main/res/layout/slider3.xml" value="0.15364583333333334" />
-        <entry key="..\:/Users/hp/AndroidStudioProjects/TrackiT-AKB/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25833333333333336" />
-        <entry key="..\:/Users/hp/AndroidStudioProjects/TrackiT-AKB/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Doc-Reichan/Project/TrackiT-AKB/app/src/main/res/layout/fragment_percobaan_data.xml" value="0.1" />
+        <entry key="..\:/Doc-Reichan/Project/TrackiT-AKB/app/src/main/res/layout/fragment_percobaan_r_e_a_d_d_a_t_a_b_a_s_e.xml" value="0.25" />
+        <entry key="..\:/Doc-Reichan/Project/TrackiT-AKB/app/src/main/res/layout/item_place.xml" value="0.1" />
       </map>
     </option>
   </component>
