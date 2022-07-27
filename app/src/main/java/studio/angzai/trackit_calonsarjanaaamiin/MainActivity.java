@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
                         selectedFragment = new HomeFragment();
                         break;
                     case R.id.mylocation:
-                        selectedFragment = new PercobaanData();
+                        selectedFragment = new MyLocationFragment();
                         break;
                     case R.id.profile:
                         selectedFragment = new ProfileFragment();

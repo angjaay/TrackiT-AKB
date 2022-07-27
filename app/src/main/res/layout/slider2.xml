@@ -18,8 +18,8 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="302dp"
-        android:layout_height="69dp"
+        android:layout_width="301dp"
+        android:layout_height="87dp"
         android:layout_marginTop="28dp"
         android:text="@string/sesuaikan_jadwal_liburanmu"
         android:textAlignment="center"
@@ -27,20 +27,21 @@
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.532"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="304dp"
-        android:layout_height="68dp"
-        android:layout_marginTop="24dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="32dp"
         android:lineSpacingExtra="5sp"
         android:text="@string/trackit_membantumu_untuk_melihat_informasi_jadwal_buka_tujuan_tempat_wisatamu"
         android:textAlignment="center"
         android:textColor="#221F1E"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
