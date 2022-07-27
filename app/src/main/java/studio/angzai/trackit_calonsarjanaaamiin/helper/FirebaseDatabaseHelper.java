@@ -27,7 +27,7 @@ public class FirebaseDatabaseHelper {
     public interface DataStatus{
         void DataIsLoaded(List<Place> places, List<String> keys);
     }
-    public void readPlaces(DataStatus dataStatus){
+    public void readPlaces(final DataStatus dataStatus){
         mReferencePlaces.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {

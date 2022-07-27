@@ -1,7 +1,5 @@
 package studio.angzai.trackit_calonsarjanaaamiin.model;
 
-import android.os.Parcel;
-import android.os.Parcelable;
 
 public class Place  {
 
@@ -92,7 +90,5 @@ public class Place  {
         this.score = score;
     }
 
-    protected Place(Parcel in) {
-    }
 
 }
