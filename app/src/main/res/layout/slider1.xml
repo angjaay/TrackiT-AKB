@@ -20,8 +20,8 @@
     <TextView
         android:id="@+id/textView"
         android:layout_width="291dp"
-        android:layout_height="69dp"
-        android:layout_marginTop="28dp"
+        android:layout_height="87dp"
+        android:layout_marginTop="36dp"
         android:text="@string/temukan_tempat_wisata_terdekat"
         android:textAlignment="center"
         android:textColor="#221F1E"
@@ -33,15 +33,14 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="288dp"
-        android:layout_height="51dp"
-        android:layout_marginTop="24dp"
+        android:layout_width="293dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="28dp"
         android:lineSpacingExtra="5sp"
         android:text="@string/trackit_membantumu_mencari_tempat_wisata_favorit_di_dekatmu"
         android:textAlignment="center"
         android:textColor="#221F1E"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 

@@ -19,9 +19,9 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="285dp"
-        android:layout_height="75dp"
-        android:layout_marginTop="28dp"
+        android:layout_width="286dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="36dp"
         android:text="@string/lacak_lokasi_tempat_wisata"
         android:textAlignment="center"
         android:textColor="#221F1E"
@@ -33,9 +33,9 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="239dp"
-        android:layout_height="82dp"
-        android:layout_marginTop="20dp"
+        android:layout_width="244dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="32dp"
         android:lineSpacingExtra="5sp"
         android:text="@string/trackit_memberimu_informasi_terkait_lokasi_tempat_wisatamu"
         android:textAlignment="center"
