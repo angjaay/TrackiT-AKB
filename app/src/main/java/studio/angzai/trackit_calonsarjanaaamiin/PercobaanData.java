@@ -3,6 +3,7 @@ package studio.angzai.trackit_calonsarjanaaamiin;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.view.LayoutInflater;
@@ -11,13 +12,15 @@ import android.view.ViewGroup;
 import android.widget.ListView;
 
 import com.google.firebase.database.DatabaseReference;
+import com.firebase.ui.database.FirebaseRecyclerOptions;
+import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import studio.angzai.trackit_calonsarjanaaamiin.adapter.RecyclerViewConfig;
-import studio.angzai.trackit_calonsarjanaaamiin.helper.FirebaseDatabaseHelper;
 import studio.angzai.trackit_calonsarjanaaamiin.model.Place;
+
 
 /**
  * A simple {@link Fragment} subclass.
@@ -27,6 +30,7 @@ import studio.angzai.trackit_calonsarjanaaamiin.model.Place;
 public class PercobaanData extends Fragment {
 
     private RecyclerView mRecyclerView;
+    RecyclerViewConfig adapter;
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -74,17 +78,33 @@ public class PercobaanData extends Fragment {
 
        View view =  inflater.inflate(R.layout.fragment_percobaan_data, container, false);
 
-        mRecyclerView = container.findViewById(R.id.recyclerview_places);
+        mRecyclerView = (RecyclerView) view.findViewById(R.id.recyclerview_places);
 
-        new FirebaseDatabaseHelper().readPlaces(new FirebaseDatabaseHelper.DataStatus() {
-            @Override
-            public void DataIsLoaded(List<Place> places, List<String> keys) {
-                new RecyclerViewConfig().setConfig(mRecyclerView, getActivity(),
-                        places, keys);
-            }
-        });
+        mRecyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
+
+        FirebaseRecyclerOptions<Place> options =
+                new FirebaseRecyclerOptions.Builder<Place>()
+                        .setQuery(
+                                FirebaseDatabase.getInstance().getReference().child("place"),
+                                Place.class
+                        )
+                        .build();
+        adapter = new RecyclerViewConfig(options);
+        mRecyclerView.setAdapter(adapter);
 
         return view;
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+        adapter.startListening();
+    }
+
+    @Override
+    public void onStop() {
+        super.onStop();
+        adapter.stopListening();
     }
 
 }
