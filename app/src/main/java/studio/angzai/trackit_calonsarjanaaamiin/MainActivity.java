@@ -30,8 +30,8 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.home:
                         selectedFragment = new HomeFragment();
                         break;
-                    case R.id.mylocation:
-                        selectedFragment = new MyLocationFragment();
+                    case R.id.maps:
+                        selectedFragment = new PercobaanData();
                         break;
                     case R.id.profile:
                         selectedFragment = new ProfileFragment();
