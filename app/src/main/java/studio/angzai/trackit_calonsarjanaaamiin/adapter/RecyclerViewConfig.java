@@ -38,7 +38,6 @@ public class RecyclerViewConfig extends FirebaseRecyclerAdapter<Place, RecyclerV
         holder.longitudetempat.setText(String.valueOf(model.getLongitude()));
         holder.txtopentime.setText(String.valueOf(model.getOpen_time()));
         holder.txtscore.setText(String.valueOf(model.getScore()));
-        holder.txtaddress.setText(model.getAddress());
     }
 
     @NonNull
