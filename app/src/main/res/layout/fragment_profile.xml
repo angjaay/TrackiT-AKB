@@ -4,14 +4,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".ProfileFragment">
+    tools:context=".ProfileFragment"
+    android:background="@drawable/bg">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="400dp"
         android:layout_height="40dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="30dp"
         android:textAlignment="center"
         android:textSize="24dp"
         android:textStyle="bold"
@@ -30,7 +31,7 @@
         android:textColor="@color/black"
         android:text="Anggota"
         android:fontFamily="@font/poppins_bold"/>
-    
+
     <LinearLayout
         android:layout_width="330dp"
         android:layout_height="550dp"
@@ -51,19 +52,20 @@
                 <ImageView
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:src="@drawable/angga"/>
+                    android:src="@drawable/profile_angga"/>
                 <LinearLayout
                     android:layout_width="210dp"
                     android:layout_height="80dp"
                     android:orientation="vertical"
                     android:layout_marginLeft="15dp">
+
                     <TextView
-                        android:layout_width="200dp"
+                        android:layout_width="match_parent"
                         android:layout_height="25dp"
-                        android:textSize="20dp"
-                        android:textColor="@color/black"
+                        android:fontFamily="@font/poppins_regular"
                         android:text="Angga Cahya Abadi"
-                        android:fontFamily="@font/poppins_regular"/>
+                        android:textColor="@color/black"
+                        android:textSize="18dp" />
                     <TextView
                         android:layout_width="200dp"
                         android:layout_height="25dp"
@@ -97,7 +99,7 @@
                 <ImageView
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:src="@drawable/rizky"/>
+                    android:src="@drawable/profile_rizky"/>
                 <LinearLayout
                     android:layout_width="210dp"
                     android:layout_height="80dp"
@@ -142,7 +144,7 @@
                 <ImageView
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:src="@drawable/reichan"
+                    android:src="@drawable/profile_reichan"
                     />
                 <LinearLayout
                     android:layout_width="210dp"
@@ -152,7 +154,7 @@
                     <TextView
                         android:layout_width="200dp"
                         android:layout_height="25dp"
-                        android:textSize="20dp"
+                        android:textSize="18dp"
                         android:textColor="@color/black"
                         android:text="Reichan Muhammad"
                         android:fontFamily="@font/poppins_regular"/>
@@ -188,7 +190,7 @@
                 <ImageView
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:src="@drawable/prima"/>
+                    android:src="@drawable/profile_prima"/>
                 <LinearLayout
                     android:layout_width="210dp"
                     android:layout_height="80dp"
@@ -233,7 +235,7 @@
                 <ImageView
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:src="@drawable/andika"/>
+                    android:src="@drawable/profile_andika"/>
                 <LinearLayout
                     android:layout_width="210dp"
                     android:layout_height="80dp"
