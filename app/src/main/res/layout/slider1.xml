@@ -15,7 +15,7 @@
         app:layout_constraintHorizontal_bias="0.444"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/slider1" />
+        android:src="@drawable/ic_slider1" />
 
     <TextView
         android:id="@+id/textView"
