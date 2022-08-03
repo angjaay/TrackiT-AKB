@@ -33,10 +33,10 @@ public class RecyclerViewConfig extends FirebaseRecyclerAdapter<Place, RecyclerV
     @Override
     protected void onBindViewHolder(@NonNull PlaceAdapter holder, int position, @NonNull Place model) {
         holder.txtname.setText(model.getName());
-        holder.txtdescription.setText(model.getDescription());
-        holder.latitudetempat.setText(String.valueOf(model.getLatitude()));
-        holder.longitudetempat.setText(String.valueOf(model.getLongitude()));
-        holder.txtopentime.setText(String.valueOf(model.getOpen_time()));
+        //holder.txtdescription.setText(model.getDescription());
+        //holder.latitudetempat.setText(String.valueOf(model.getLatitude()));
+        //holder.longitudetempat.setText(String.valueOf(model.getLongitude()));
+        //holder.txtopentime.setText(String.valueOf(model.getOpen_time()));
         holder.txtscore.setText(String.valueOf(model.getScore()));
         holder.txtaddress.setText(model.getAddress());
         Glide.with(holder.images.getContext()).load(model.getImage()).into(holder.images);
@@ -45,7 +45,7 @@ public class RecyclerViewConfig extends FirebaseRecyclerAdapter<Place, RecyclerV
     @NonNull
     @Override
     public PlaceAdapter onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_place, parent, false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.places_list_item, parent, false);
 
         return new PlaceAdapter(view);
     }
@@ -57,14 +57,14 @@ public class RecyclerViewConfig extends FirebaseRecyclerAdapter<Place, RecyclerV
 
         public PlaceAdapter(@NonNull View itemView) {
             super(itemView);
-            txtname = itemView.findViewById(R.id.textName);
-            txtaddress = itemView.findViewById(R.id.textAddress);
-            images = itemView.findViewById(R.id.imageTempat);
-            txtdescription = itemView.findViewById(R.id.textDescription);
-            latitudetempat = itemView.findViewById(R.id.latitudeTempat);
-            longitudetempat = itemView.findViewById(R.id.longitudeTempat);
-            txtopentime = itemView.findViewById(R.id.textOpenTime);
-            txtscore = itemView.findViewById(R.id.textScore);
+            txtname = itemView.findViewById(R.id.txtname);
+            txtaddress = itemView.findViewById(R.id.txtaddress);
+            images = itemView.findViewById(R.id.txtimage);
+            //txtdescription = itemView.findViewById(R.id.textDescription);
+            //latitudetempat = itemView.findViewById(R.id.latitudeTempat);
+            //longitudetempat = itemView.findViewById(R.id.longitudeTempat);
+            //txtopentime = itemView.findViewById(R.id.textOpenTime);
+            txtscore = itemView.findViewById(R.id.txtrating);
         }
 
 
