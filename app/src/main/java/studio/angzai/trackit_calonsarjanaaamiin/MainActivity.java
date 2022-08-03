@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
                         selectedFragment = new HomeFragment();
                         break;
                     case R.id.maps:
-                        selectedFragment = new PercobaanData();
+                        selectedFragment = new MyLocationFragment();
                         break;
                     case R.id.profile:
                         selectedFragment = new ProfileFragment();
@@ -49,7 +49,4 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-
-    //RIZKY CEKCEK
-    //tes prim
 }
