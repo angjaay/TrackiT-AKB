@@ -57,10 +57,9 @@ public class MyLocationFragment extends Fragment {
             requestPermissions(new String[] {Manifest.permission.ACCESS_FINE_LOCATION, Manifest.permission.ACCESS_COARSE_LOCATION }, 100);
         }
 
-        // Return view
+        //Return view
         return view;
     }
-
     @SuppressLint("MissingPermission")
     private void getCurrentLocation()
     {
