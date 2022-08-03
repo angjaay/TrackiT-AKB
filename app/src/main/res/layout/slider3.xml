@@ -9,13 +9,13 @@
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="315dp"
-        android:layout_height="241dp"
-        android:layout_marginTop="84dp"
+        android:layout_height="273dp"
+        android:layout_marginTop="54dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/slider3" />
+        android:src="@drawable/ic_slider2" />
 
     <TextView
         android:id="@+id/textView"

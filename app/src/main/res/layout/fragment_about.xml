@@ -25,7 +25,7 @@
         android:layout_height="220dp"
         android:layout_marginStart="24dp"
         android:layout_marginEnd="24dp"
-        android:fontFamily="sans-serif"
+        android:fontFamily="@font/poppins_regular"
         android:gravity="center"
         android:text="TrackiT merupakan sebuah aplikasi yang membantu
 untuk merekomendasikan tempat wisata bagi pengguna nya yang ingin menikmati liburan bersama keluarga.

@@ -13,21 +13,23 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="15dp"
         android:textAlignment="center"
-        android:textSize="30dp"
+        android:textSize="24dp"
         android:textStyle="bold"
         android:textColor="@color/black"
-        android:text="CALON SARJANA AAMIIN"/>
+        android:text="CALON SARJANA AAMIIN"
+        android:fontFamily="@font/poppins_bold"/>
 
     <TextView
-        android:layout_width="120dp"
+        android:layout_width="150dp"
         android:layout_height="40dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="10dp"
         android:textAlignment="center"
-        android:textSize="30dp"
+        android:textSize="24dp"
         android:textStyle="bold"
         android:textColor="@color/black"
-        android:text="Anggota"/>
+        android:text="Anggota"
+        android:fontFamily="@font/poppins_bold"/>
     
     <LinearLayout
         android:layout_width="330dp"
@@ -60,19 +62,22 @@
                         android:layout_height="25dp"
                         android:textSize="20dp"
                         android:textColor="@color/black"
-                        android:text="Angga Cahya Abadi"/>
+                        android:text="Angga Cahya Abadi"
+                        android:fontFamily="@font/poppins_regular"/>
                     <TextView
                         android:layout_width="200dp"
                         android:layout_height="25dp"
                         android:textSize="20dp"
                         android:textColor="@color/black"
-                        android:text="10119123"/>
+                        android:text="10119123"
+                        android:fontFamily="@font/poppins_regular"/>
                     <TextView
                         android:layout_width="200dp"
                         android:layout_height="25dp"
                         android:textSize="20dp"
                         android:textColor="@color/black"
-                        android:text="IF - 3"/>
+                        android:text="IF - 3"
+                        android:fontFamily="@font/poppins_regular"/>
                 </LinearLayout>
 
             </LinearLayout>
@@ -103,19 +108,22 @@
                         android:layout_height="25dp"
                         android:textSize="20dp"
                         android:textColor="@color/black"
-                        android:text="Rizky Septiana A. R."/>
+                        android:text="Rizky Septiana A. R."
+                        android:fontFamily="@font/poppins_regular"/>
                     <TextView
                         android:layout_width="200dp"
                         android:layout_height="25dp"
                         android:textSize="20dp"
                         android:textColor="@color/black"
-                        android:text="10119118"/>
+                        android:text="10119118"
+                        android:fontFamily="@font/poppins_regular"/>
                     <TextView
                         android:layout_width="200dp"
                         android:layout_height="25dp"
                         android:textSize="20dp"
                         android:textColor="@color/black"
-                        android:text="IF - 3"/>
+                        android:text="IF - 3"
+                        android:fontFamily="@font/poppins_regular"/>
                 </LinearLayout>
 
             </LinearLayout>
@@ -134,7 +142,8 @@
                 <ImageView
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:src="@drawable/reichan"/>
+                    android:src="@drawable/reichan"
+                    />
                 <LinearLayout
                     android:layout_width="210dp"
                     android:layout_height="80dp"
@@ -145,19 +154,22 @@
                         android:layout_height="25dp"
                         android:textSize="20dp"
                         android:textColor="@color/black"
-                        android:text="Reichan Muhammad"/>
+                        android:text="Reichan Muhammad"
+                        android:fontFamily="@font/poppins_regular"/>
                     <TextView
                         android:layout_width="200dp"
                         android:layout_height="25dp"
                         android:textSize="20dp"
                         android:textColor="@color/black"
-                        android:text="10119120"/>
+                        android:text="10119120"
+                        android:fontFamily="@font/poppins_regular"/>
                     <TextView
                         android:layout_width="200dp"
                         android:layout_height="25dp"
                         android:textSize="20dp"
                         android:textColor="@color/black"
-                        android:text="IF - 3"/>
+                        android:text="IF - 3"
+                        android:fontFamily="@font/poppins_regular"/>
                 </LinearLayout>
 
             </LinearLayout>
@@ -187,19 +199,22 @@
                         android:layout_height="25dp"
                         android:textSize="20dp"
                         android:textColor="@color/black"
-                        android:text="Primarazaq N. P. H."/>
+                        android:text="Primarazaq N. P. H."
+                        android:fontFamily="@font/poppins_regular"/>
                     <TextView
                         android:layout_width="200dp"
                         android:layout_height="25dp"
                         android:textSize="20dp"
                         android:textColor="@color/black"
-                        android:text="10119124"/>
+                        android:text="10119124"
+                        android:fontFamily="@font/poppins_regular"/>
                     <TextView
                         android:layout_width="200dp"
                         android:layout_height="25dp"
                         android:textSize="20dp"
                         android:textColor="@color/black"
-                        android:text="IF - 3"/>
+                        android:text="IF - 3"
+                        android:fontFamily="@font/poppins_regular"/>
                 </LinearLayout>
 
             </LinearLayout>
@@ -229,19 +244,22 @@
                         android:layout_height="25dp"
                         android:textSize="20dp"
                         android:textColor="@color/black"
-                        android:text="Andika Putra"/>
+                        android:text="Andika Putra"
+                        android:fontFamily="@font/poppins_regular"/>
                     <TextView
                         android:layout_width="200dp"
                         android:layout_height="25dp"
                         android:textSize="20dp"
                         android:textColor="@color/black"
-                        android:text="10119101"/>
+                        android:text="10119101"
+                        android:fontFamily="@font/poppins_regular"/>
                     <TextView
                         android:layout_width="200dp"
                         android:layout_height="25dp"
                         android:textSize="20dp"
                         android:textColor="@color/black"
-                        android:text="IF - 3"/>
+                        android:text="IF - 3"
+                        android:fontFamily="@font/poppins_regular"/>
                 </LinearLayout>
 
             </LinearLayout>
