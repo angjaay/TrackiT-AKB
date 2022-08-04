@@ -30,6 +30,8 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
+import java.util.ArrayList;
+
 public class MyLocationFragment extends Fragment {
 
     // Initialize variables
@@ -47,6 +49,14 @@ public class MyLocationFragment extends Fragment {
         this.lat_d = lat_d;
         this.long_d = long_d;
     }
+
+    ArrayList<LatLng> arrayList = new ArrayList<LatLng>();
+    LatLng Marker1 = new LatLng(-7.150165234234893, 107.40101007509645 );
+    LatLng Marker2 = new LatLng(-6.7592326685330315, 107.60965194714275);
+    LatLng Market3 = new LatLng(-6.833865879675382, 107.66359362754234);
+    LatLng Marker4 = new LatLng(-6.789437701621277, 107.57917342712021);
+    LatLng Marker5 = new LatLng(-6.85633409657664, 107.63245922809203);
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         // Initialize view
@@ -58,12 +68,27 @@ public class MyLocationFragment extends Fragment {
 
         //Inisialisasi client
         client = LocationServices.getFusedLocationProviderClient(getActivity());
+        arrayList.add(Marker1);
+        arrayList.add(Marker2);
+        arrayList.add(Market3);
+        arrayList.add(Marker4);
+        arrayList.add(Marker5);
 
         //Singkron Map
         supportMapFragment.getMapAsync(new OnMapReadyCallback() {
             @Override
             public void onMapReady(@NonNull GoogleMap googleMap) {
                 //dimana map berhasil dijalankan maka
+                map = googleMap;
+                map.addMarker(new MarkerOptions().position(Marker1).title("Kawah Putih"));
+                map.addMarker(new MarkerOptions().position(Marker2).title("Gunung Tangkuban Perahu"));
+                map.addMarker(new MarkerOptions().position(Market3).title("Tebing Keraton"));
+                map.addMarker(new MarkerOptions().position(Marker4).title("Dusun Bambu"));
+                map.addMarker(new MarkerOptions().position(Marker5).title("Taman Hutan Raya"));
+                for (int i=0;i<arrayList.size();i++){
+                    map.animateCamera(CameraUpdateFactory.zoomTo(15.0f));
+                    map.moveCamera(CameraUpdateFactory.newLatLng(arrayList.get(i)));
+                }
                 googleMap.setOnMapClickListener(new GoogleMap.OnMapClickListener() {
                     @Override
                     public void onMapClick(@NonNull LatLng latLng) {
@@ -130,7 +155,6 @@ public class MyLocationFragment extends Fragment {
                                             });
                                         }
                                     };
-
                                     // mengupdate lokasi
                                     client.requestLocationUpdates(locationRequest, locationCallback, Looper.myLooper());
                                 }
