@@ -11,9 +11,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
 import com.bumptech.glide.Glide;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class DetailFragment extends Fragment {
-
+    BottomNavigationView bottomnavigation;
     String name,address,image,description,time;
     float latitude,longitude,score;
 
@@ -33,6 +34,22 @@ public class DetailFragment extends Fragment {
         this.time = time;
     }
 
+    public float lat_d(){
+        return latitude;
+    }
+
+    public float long_d(){
+        return longitude;
+    }
+
+    public String name_d(){
+        return name;
+    }
+
+    public String address_d(){
+        return address;
+    }
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -50,6 +67,16 @@ public class DetailFragment extends Fragment {
         descholder.setText(description);
         timeholder.setText(time);
         Glide.with(getContext()).load(image).into(imageholder);
+
+            addressholder.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    AppCompatActivity activity =(AppCompatActivity)view.getContext();
+                    activity.getSupportFragmentManager().beginTransaction().replace(R.id.wrapperdetail, new MyLocationFragment(name_d(),address_d(),lat_d(),long_d())).addToBackStack(null).commit();
+                    //bottomnavigation = view.findViewById(R.id.bottom_navigation);
+                    //bottomnavigation.setSelectedItemId(R.id.maps);
+                }
+            });
 
         return view;
     }
