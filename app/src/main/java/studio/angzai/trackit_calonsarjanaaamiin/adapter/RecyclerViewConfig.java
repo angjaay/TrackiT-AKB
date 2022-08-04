@@ -82,6 +82,7 @@ public class RecyclerViewConfig extends FirebaseRecyclerAdapter<Place, RecyclerV
             //longitudetempat = itemView.findViewById(R.id.longitudeTempat);
             //txtopentime = itemView.findViewById(R.id.textOpenTime);
             txtscore = itemView.findViewById(R.id.txtrating);
+
         }
 
 
