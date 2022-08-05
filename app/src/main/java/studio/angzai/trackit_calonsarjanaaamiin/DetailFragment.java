@@ -9,6 +9,8 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 import com.bumptech.glide.Glide;
 
@@ -70,10 +72,20 @@ public class DetailFragment extends Fragment {
         addressholder.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                AppCompatActivity activity =(AppCompatActivity)view.getContext();
-                activity.getSupportFragmentManager().beginTransaction().replace(R.id.wrapperdetail, new MyLocationFragment(name_d(),address_d(),lat_d(),long_d())).addToBackStack(null).commit();
-                //bottomnavigation = view.findViewById(R.id.bottom_navigation);
-                //bottomnavigation.setSelectedItemId(R.id.maps);
+                // Bikin bundle biar bisa ngirim data ke fragment maps
+                Bundle bundle = new Bundle();
+                // "latitude" teh key nya
+                bundle.putFloat("latitude", lat_d());
+                bundle.putFloat("longitude", long_d());
+                bundle.putString("name", name_d());
+
+                Fragment fragment = new MapsFragment();
+                fragment.setArguments(bundle);
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.wrapperdetail, fragment);
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
             }
         });
 
