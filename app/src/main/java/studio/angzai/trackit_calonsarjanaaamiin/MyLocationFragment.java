@@ -94,9 +94,6 @@ public class MyLocationFragment extends Fragment {
                 //dimana map berhasil dijalankan maka
                 map = googleMap;
                 //masih statis chan
-                    LatLng Marker = new LatLng(lat_d,long_d);
-                    arrayList.add(Marker);
-                    map.addMarker(new MarkerOptions().position(Marker).title(name_d));
 
                 //map.addMarker(new MarkerOptions().position(Marker1).title(name_d));
                 //map.addMarker(new MarkerOptions().position(Marker2).title("Gunung Tangkuban Perahu"));
