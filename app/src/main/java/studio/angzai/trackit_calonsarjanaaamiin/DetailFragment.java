@@ -1,5 +1,15 @@
 package studio.angzai.trackit_calonsarjanaaamiin;
 
+/**
+ *
+ * Tanggal pengerjaan : 01 - 08 - 2022
+ * Nama : Primarazaq Noorsalih & Rizky Septiana Abdulrazak
+ * NIM : 10119124 & 10119118
+ * Kelas : IF-3
+ *
+ * **/
+
+import android.graphics.Paint;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -65,6 +75,7 @@ public class DetailFragment extends Fragment {
 
         nameholder.setText(name);
         addressholder.setText(address);
+        addressholder.setPaintFlags(addressholder.getPaintFlags() | Paint.UNDERLINE_TEXT_FLAG);
         descholder.setText(description);
         timeholder.setText(time);
         Glide.with(getContext()).load(image).into(imageholder);

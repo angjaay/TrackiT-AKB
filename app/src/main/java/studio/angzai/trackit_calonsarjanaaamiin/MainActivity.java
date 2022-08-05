@@ -1,5 +1,14 @@
 package studio.angzai.trackit_calonsarjanaaamiin;
 
+/**
+ *
+ * Tanggal pengerjaan : 25 - 07 - 2022
+ * Nama : Andika Putra
+ * NIM : 10119101
+ * Kelas : IF-3
+ *
+ * **/
+
 import android.os.Bundle;
 import android.view.MenuItem;
 

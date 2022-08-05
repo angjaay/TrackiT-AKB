@@ -1,9 +1,13 @@
 package studio.angzai.trackit_calonsarjanaaamiin;
 
-//20-juli-2022
-//Nama : ANGGA CAHYA ABADI
-//NIM : 10119123
-//Kelas : IF-3
+/**
+ *
+ * Tanggal pengerjaan : 20 - 07 - 2022
+ * Nama : Angga Cahya Abadi
+ * NIM : 10119123
+ * Kelas : IF-3
+ *
+ * **/
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
 import androidx.viewpager.widget.ViewPager;

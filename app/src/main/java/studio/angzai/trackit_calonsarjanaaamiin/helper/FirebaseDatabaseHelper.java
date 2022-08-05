@@ -1,4 +1,13 @@
 package studio.angzai.trackit_calonsarjanaaamiin.helper;
+/**
+ *
+ * Tanggal pengerjaan : 02 - 08 - 2022
+ * Nama : Reichan Muhammad Maulana
+ * NIM : 10119120
+ * Kelas : IF-3
+ *
+ * **/
+
 
 import androidx.annotation.NonNull;
 

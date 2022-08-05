@@ -1,5 +1,14 @@
 package studio.angzai.trackit_calonsarjanaaamiin;
 
+/**
+ *
+ * Tanggal pengerjaan : 02 - 08 - 2022
+ * Nama : Primarazaq Noorsalih, Reichan Muhammad Maulana & Angga Cahya Abadi
+ * NIM : 10119124, 10119120, & 10119123
+ * Kelas : IF-3
+ *
+ * **/
+
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;

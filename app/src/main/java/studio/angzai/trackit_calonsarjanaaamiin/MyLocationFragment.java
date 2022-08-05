@@ -1,5 +1,14 @@
 package studio.angzai.trackit_calonsarjanaaamiin;
 
+/**
+ *
+ * Tanggal pengerjaan : 03 - 08 - 2022
+ * Nama : Andika Putra
+ * NIM : 10119101
+ * Kelas : IF-3
+ *
+ * **/
+
 import android.Manifest;
 import android.annotation.SuppressLint;
 import android.content.Context;

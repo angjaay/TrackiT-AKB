@@ -1,5 +1,14 @@
 package studio.angzai.trackit_calonsarjanaaamiin;
 
+/**
+ *
+ * Tanggal pengerjaan : 20 - 07 - 2022
+ * Nama : Rizky Septiana Abdulrazak & Angga Cahya Abadi
+ * NIM : 10119118 & 10119124
+ * Kelas : IF-3
+ *
+ * **/
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;

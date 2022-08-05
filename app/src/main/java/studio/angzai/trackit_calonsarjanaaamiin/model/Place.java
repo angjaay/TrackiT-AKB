@@ -1,5 +1,12 @@
 package studio.angzai.trackit_calonsarjanaaamiin.model;
-
+/**
+ *
+ * Tanggal pengerjaan : 02 - 08 - 2022
+ * Nama : Reichan Muhammad Maulana & Andika Putra
+ * NIM : 10119120 dan 10119101
+ * Kelas : IF-3
+ *
+ * **/
 
 public class Place  {
 
